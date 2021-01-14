@@ -17,5 +17,8 @@ This library is used to convert a DTC in the standard European On-Board Diagnost
 * B00xx - Body (includes climate control and airbag faults)
 * U00xx - Network (refers to faults within the CAN bus system)
 
+##DTC Definitions
+All trouble code definitions and descriptions were pulled from SAE Standard J2021, last revised December 13, 2016.
+
 ## Library Usage
 To save on program memory when using AVR microcontrollers, the majority of these DTCs are commented out within the .cpp file.  If the fault you need is not being returned, check if it is in one of the blocks commented out.
